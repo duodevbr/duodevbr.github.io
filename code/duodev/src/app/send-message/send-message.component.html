@@ -1,0 +1,25 @@
+<section>
+			<h2>Send us a message</h2>
+	<form (ngSubmit)="send(formMessage)" [formGroup]="formMessage">
+				<div class="row uniform">
+					<div class="6u 12u$(large) 6u(medium) 12u$(xsmall)">
+						<label for="name">Name</label>
+						<input  type="text" name="name" formControlName="name" id="name" #name />
+					</div>
+					<div class="6u$ 12u$(large) 6u$(medium) 12u$(xsmall)">
+						<label for="email">Email</label>
+						<input type="email" formControlName="email"  name="email" id="email" #email />
+					</div>
+					<div class="12u$">
+						<label for="text">Message</label>
+						<textarea name="text" id="text" formControlName="text"  rows="5" #text></textarea>
+					</div>
+					<div class="12u$">
+						<ul class="actions">
+							<li><input type="submit" [disabled]="!formMessage.valid"  value="Send Message" class="special" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</div>
+				</div>
+	</form>
+</section>
