@@ -61,19 +61,19 @@
 				<article>
 					<img src="assets/images/slide01.jpg" alt="" />
 					<div class="inner">
-						<h2><a href="#">Magna tempus. Sed feugiat.</a></h2>
+						<h2><a href="#">Software Architecture</a></h2>
 					</div>
 				</article>
 				<article>
 					<img src="assets/images/slide02.jpg" alt="" />
 					<div class="inner">
-						<h2><a href="#">Aliquam veroeros nullam.</a></h2>
+						<h2><a href="#">Best Practices</a></h2>
 					</div>
 				</article>
 				<article>
 					<img src="assets/images/slide03.jpg"  alt="" />
 					<div class="inner">
-						<h2><a href="#">Consequat dolore adipiscing.</a></h2>
+						<h2><a href="#">trainning</a></h2>
 					</div>
 				</article>
 			</section>
@@ -83,10 +83,12 @@
 				<div class="inner">
 					<section class="spotlight">
 						<div class="content">
-							<h2>Libero bibendum nullam vitae magna sed veroeros</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id interdum magna, ultricies aliquet curabitur sed metus pellentesque, ornare sapien quis.</p>
+							<h2>Conhecimento e experiência</h2>
+							<p>Nosso foco é entregar valor ao negocio do cliente, não importa como e nos orgulhamos muito disto, 
+								para tal usamos sempre maneiras ágeis de desenvolver, principalmente Scrum.</p>
+							<p>Empresa especializada em soluções que agregam valor ao cliente, trabalhando de maneira inovadora e eficiente.</p>
 						</div>
-						<span class="image"><img src="assets/images/pic07.jpg" alt="" /></span>
+						<span class="image"><img src="empresa.jpg" alt="" /></span>
 					</section>
 				</div>
 			</section>
@@ -96,8 +98,8 @@
 				<div class="inner">
 					<div class="features">
 						<section class="content">
-							<span class="icon-wrapper major"><span class="icon fa-pencil"></span></span>
-							<h3>Praesent sed donec</h3>
+							<span class="icon-wrapper major"><span class="icon fa-recycle"></span></span>
+							<h3>Scrum</h3>
 							<p>Proin consequat luctus elit, nec blandit tellus ut volutpat magna. mi euismod elementum lectus et consequat etiam lorem etiam sed tempus. Feugiat veroeros lorem ipsum dolor.</p>
 						</section>
 						<section class="content">
@@ -186,19 +188,19 @@
 		<!-- Contact -->
 			<section id="contact" class="wrapper split">
 				<div class="inner">
-				<form id="message">
-					<h2>Send us a message</h2>
+				<form action="https://formspree.io/rafael@duodev.com.br" method="POST">
+					<h2>Entre em contato</h2>
 							<div class="row uniform">
 								<div class="6u 12u$(large) 6u(medium) 12u$(xsmall)">
-									<label for="name">Name</label>
+									<label for="name">Nome</label>
 									<input  type="text" name="name" required  id="name" />
 								</div>
 								<div class="6u$ 12u$(large) 6u$(medium) 12u$(xsmall)">
-									<label for="email">Email</label>
-									<input type="email" name="email" required id="email"  />
+									<label for="email">E-mail</label>
+									<input type="email" name="_replyto" required id="email"  />
 								</div>
 								<div class="12u$">
-									<label for="text">Message</label>
+									<label for="text">Mensagem</label>
 									<textarea name="text" id="message" required rows="5" ></textarea>
 								</div>
 								<div class="12u$">
@@ -210,12 +212,12 @@
 							</div>
 				</form>
 				<section>
-					<h2>Other ways to reach us</h2>
+					<h2>Outras formas de nos contactar</h2>
 					<ul class="bulleted-icons">
 						<li>
 							<span class="icon-wrapper"><span class="icon fa-envelope"></span></span>
-							<h3>Email</h3>
-							<p><a href="#">eu@rafaelv.com.br</a></p>
+							<h3>E-mail</h3>
+							<p><a href="#">rafael@duodev.com.br</a></p>
 						</li>
 						<!--<li>
 							<span class="icon-wrapper"><span class="icon fa-twitter"></span></span>
@@ -224,7 +226,7 @@
 						</li>-->
 						<li>
 							<span class="icon-wrapper"><span class="icon fa-phone"></span></span>
-							<h3>Phone</h3>
+							<h3>Telefone</h3>
 							<p>(11) 3042-0046</p>
 						</li>
 						<!--<li>
@@ -234,7 +236,7 @@
 						</li>-->
 						<li>
 							<span class="icon-wrapper"><span class="icon fa-home"></span></span>
-							<h3>Mailing Address</h3>
+							<h3>Endereço</h3>
 							<p>Rua Vergueiro, 3406<br />
 							 São Paulo, Brasil<br />
 							</p>
@@ -250,7 +252,7 @@
 			</section>
 
 		<!-- Footer -->
-			<footer id="footer">
+			<!--<footer id="footer">
 				<div class="inner">
 					<p class="copyright">&copy; Untitled Corp. All rights reserved. Lorem ipsum dolor sit amet feugiat tempus aliquam.</p>
 					<ul class="menu">
@@ -259,7 +261,7 @@
 						<li><a href="#">Legal<span> Information</span></a></li>
 					</ul>
 				</div>
-			</footer>
+			</footer>-->
 
 		<!-- Scripts -->
 			<script src="./assets/js/jquery.min.js"></script>
@@ -269,20 +271,5 @@
 			<script src="./assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="./assets/js/main.js"></script>
-			<script>
-				$(function(){
-					$('#message').submit(function(){
-						$.ajax({
-							url:'',
-							method: 'POST',
-							data: {name:$('#name').val(), email: $('#email').val(), message: $('#message').val() }
-						}).done(function(){
-							alert("Completo");
-						}).fail(function(){
-							alert("Falhou");
-						});
-					});
-				});
-			</script>
 </body>
 </html>
