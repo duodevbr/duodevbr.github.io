@@ -18,9 +18,7 @@
 <body>
   	<!-- Header -->
 	<header id="header" class="alt">
-		<div class="div-logo">
-			<img src="logo.png" alt="DuoDev"/>
-		</div>
+		<img src="logo_slogan.png" alt="DuoDev"/>
 		<!--<nav id="nav">
 			<ul style="padding-right: 50px">
 				<li><a href="index.html">Home</a></li>
@@ -75,38 +73,62 @@
 		<div class="inner">
 			<section class="spotlight">
 				<div class="content">
-					<h2>Conhecimento e experiência</h2>
-					<p>Nosso foco é entregar valor ao negocio do cliente, não importa como e nos orgulhamos muito disto, 
-						para tal usamos sempre maneiras ágeis de desenvolver, principalmente Scrum.</p>
-					<p>Empresa especializada em soluções que agregam valor ao cliente, trabalhando de maneira inovadora e eficiente.</p>
+					<h2>Conhecimento e Experiência</h2>
+					<p>A DuoDev é uma empresa inovadora, nasceu em 2009 da união do conhecimento e experiência de 2 grandes 
+						profissionais do mercado de desenvolvimento de software. Possuimos  vasta experiência em desenvolvimento 
+						de produtos e serviços de tecnologia.</p>
 				</div>
 				<span class="image"><img src="empresa.jpg" alt="" /></span>
 			</section>
+			<section class="spotlight">
+				<span class="image"><img src="empresa.jpg" alt="" /></span>
+				<div class="content">
+					<h2>Eficácia e Eficiência</h2>
+					<p>Nosso foco é ajudar nossos clientes a obter sucesso com desenvolvimento de produtos digitais utilizando técnicas do mundo Ágil como Scrum e XP. Trabalhamos de maneira colaborativa, inovadora e eficiente.</p>
+				</div>
+			</section>
+
 		</div>
 	</section>
 
 	<!-- Two -->
-	<!--<section id="two" class="wrapper content-pad">
+	<!--
+Arquitetura e desenvolvimento de Software
+Taylor made software e Desenvolvimento de produtos (SaaS)
+Coaching e mentoring Ágil para equipes de desenvolvimento de software
+Trabalhos específicos com a equipe de desenvolvedores
+	Práticas de arquitetura emergente;
+	Uso extensivo de práticas, padrões e princípios como pair programming, TDD, BDD, DbC, DDD, SOLID e outros;
+	Mitigação de débitos técnicos;
+	Tratamento especial para Bugs do dia-a-dia, e BUGs em código legado;
+	Criação / configuração de ambientes de ALM com CI;
+	Uso correto de ferramentas de VCS, ferramentas de testes (*Unit, Fitnesse, Cucumber) e outras ferramentas para melhoria de produção, qualidade e confiabilidade do software final entregue tanto na plataforma Microsoft como em outras plataformas;
+Treinamentos
++ treinamentos feitos sob medida;
++ treinamentos oficiais Microsoft (MOC);
+-->
+
+	<section id="two" class="wrapper content-pad">
 		<div class="inner">
 			<div class="features">
 				<section class="content">
 					<span class="icon-wrapper major"><span class="icon fa-recycle"></span></span>
-					<h3>Scrum</h3>
+					<h3>Arquitetura e desenvolvimento de Software</h3>
 					<p>Proin consequat luctus elit, nec blandit tellus ut volutpat magna. mi euismod elementum lectus et consequat etiam lorem etiam sed tempus. Feugiat veroeros lorem ipsum dolor.</p>
 				</section>
 				<section class="content">
 					<span class="icon-wrapper major"><span class="icon fa-paper-plane"></span></span>
-					<h3>Commodo mollis</h3>
+					<h3>Taylor made software e Desenvolvimento de produtos (SaaS)</h3>
 					<p>Pellentesque, ornare sapien quis, tristique ante. Proin nec facilisis odio. Integer elementum nunc nec leo interdum, non tristique eros laoreet. Integer vitae erat suscipit commodo.</p>
 				</section>
 				<section class="content">
 					<span class="icon-wrapper major"><span class="icon fa-cloud"></span></span>
-					<h3>Magnis curabitur</h3>
+					<h3>Coaching e mentoring Ágil para equipes de desenvolvimento de software</h3>
 					<p>Duis vulputate sit amet metus quis facilisis. Sed dapibus neque erat fringilla tincidunt. Nullam sapien et sapien, iaculis ac varius ultrices nec metus. Aenean ultricies magna.</p>
 				</section>
 			</div>
 		</div>
-	</section>-->
+	</section>
 
 	<!-- Three -->
 	<!--<section id="three" class="wrapper style2">
@@ -179,67 +201,66 @@
 
 	<!-- Contact -->
 	<section id="contact" class="wrapper split">
-		<div class="inner">
-		<form action="https://formspree.io/info@duodev.com.br" method="POST">
-			<h2>Entre em contato</h2>
-			<div class="row uniform">
-				<div class="6u 12u$(large) 6u(medium) 12u$(xsmall)">
-					<label for="name">Nome</label>
-					<input  type="text" name="name" required  id="name" />
+		<div class="inner">		
+			<form action="https://formspree.io/info@duodev.com.br" method="POST">
+				<h2>Entre em contato</h2>
+				<div class="row uniform">
+					<div class="6u 12u$(large) 6u(medium) 12u$(xsmall)">
+						<label for="name">Nome</label>
+						<input  type="text" name="name" required  id="name" />
+					</div>
+					<div class="6u$ 12u$(large) 6u$(medium) 12u$(xsmall)">
+						<label for="email">E-mail</label>
+						<input type="email" name="_replyto" required id="email"  />
+					</div>
+					<div class="12u$">
+						<label for="text">Mensagem</label>
+						<textarea name="text" id="message" required rows="5" placeholder="Como podemos ajudar?"></textarea>
+					</div>
+					<div class="12u$">
+						<ul class="actions">
+							<li><input type="submit" value="Enviar" class="special" /></li>
+							<!--<li><input type="reset" value="Limpar" /></li>-->
+						</ul>
+					</div>
 				</div>
-				<div class="6u$ 12u$(large) 6u$(medium) 12u$(xsmall)">
-					<label for="email">E-mail</label>
-					<input type="email" name="_replyto" required id="email"  />
-				</div>
-				<div class="12u$">
-					<label for="text">Mensagem</label>
-					<textarea name="text" id="message" required rows="5" placeholder="Como podemos ajudar?"></textarea>
-				</div>
-				<div class="12u$">
-					<ul class="actions">
-						<li><input type="submit" value="Enviar" class="special" /></li>
-						<!--<li><input type="reset" value="Limpar" /></li>-->
-					</ul>
-				</div>
-			</div>
-		</form>
-		<section>
-			<h2>Outras formas de nos contactar</h2>
-			<ul class="bulleted-icons">
-				<li>
-					<span class="icon-wrapper"><span class="icon fa-envelope"></span></span>
-					<h3>E-mail</h3>
-					<p><a href="#">info@duodev.com.br</a></p>
-				</li>
-				<!--<li>
-					<span class="icon-wrapper"><span class="icon fa-twitter"></span></span>
-					<h3>Twitter</h3>
-					<p><a href=""></a></p>
-				</li>-->
-				<li>
-					<span class="icon-wrapper"><span class="icon fa-phone"></span></span>
-					<h3>Telefone</h3>
-					<p>(11) 3042-0046</p>
-				</li>
-				<!--<li>
-					<span class="icon-wrapper"><span class="icon fa-facebook"></span></span>
-					<h3>Facebook</h3>
-					<p><a href=""></a></p>
-				</li>-->
-				<li>
-					<span class="icon-wrapper"><span class="icon fa-home"></span></span>
-					<h3>Endereço</h3>
-					<p>Rua Vergueiro, 3406<br />
-						São Paulo, Brasil<br />
-					</p>
-				</li>
-				<li>
-					<span class="icon-wrapper"><span class="icon fa-linkedin"></span></span>
-					<h3>LinkedIn</h3>
-					<p><a href="https://www.linkedin.com/company-beta/1071424/?pathWildcard=1071424" target="_blank">DuoDev</a></p>
-				</li>
-			</ul>
-		</section>
+			</form>
+			<section>
+				<h2>Outras formas de nos contactar</h2>
+				<ul class="bulleted-icons">
+					<li>
+						<span class="icon-wrapper"><span class="icon fa-envelope"></span></span>
+						<h3>E-mail</h3>
+						<p><a href="#">info@duodev.com.br</a></p>
+					</li>
+					<!--<li>
+						<span class="icon-wrapper"><span class="icon fa-twitter"></span></span>
+						<h3>Twitter</h3>
+						<p><a href=""></a></p>
+					</li>-->
+					<li>
+						<span class="icon-wrapper"><span class="icon fa-phone"></span></span>
+						<h3>Telefone</h3>
+						<p>(11) 3042-0046</p>
+					</li>
+					<!--<li>
+						<span class="icon-wrapper"><span class="icon fa-facebook"></span></span>
+						<h3>Facebook</h3>
+						<p><a href=""></a></p>
+					</li>-->
+					<li>
+						<span class="icon-wrapper"><span class="icon fa-home"></span></span>
+						<h3>Endereço</h3>
+						<p>Rua Vergueiro, 3406 - São Paulo, Brasil<br />
+						</p>
+					</li>
+					<li>
+						<span class="icon-wrapper"><span class="icon fa-linkedin"></span></span>
+						<h3>LinkedIn</h3>
+						<p><a href="https://www.linkedin.com/company-beta/1071424/?pathWildcard=1071424" target="_blank">DuoDev</a></p>
+					</li>
+				</ul>
+			</section>
 		</div>
 	</section>
 

@@ -3792,7 +3792,7 @@
 		box-shadow: 0 0 0.125em 0 rgba(0, 0, 0, 0.35);
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 500;
-		height: 90px;
+		height: 110px;
 		left: 0;
 		/*line-height: 3.5em;*/
 		position: fixed;
@@ -3800,6 +3800,9 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+
+		padding-top: 16px;
+		padding-left: 16px;
 	}
 
 		#header h1 {
@@ -4033,7 +4036,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				/*height: 3em;*/
+				height: 80px;
 				/*line-height: 3em;*/
 			}
 
@@ -4044,6 +4047,10 @@
 					#header h1 a {
 						font-size: 0.9em;
 					}
+				
+				#header img {
+					width: 280px;
+				}
 
 		}
 
@@ -4582,9 +4589,3 @@
 				}
 
 		}*/
-
-
-.div-logo{
-	  padding-top: 2%;
-	  padding-left: 5%;
-  }
